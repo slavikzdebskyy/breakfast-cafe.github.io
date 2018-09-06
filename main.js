@@ -110,7 +110,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _main_right_tool_bar_right_tool_bar_component__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./main/right-tool-bar/right-tool-bar.component */ "./src/app/main/right-tool-bar/right-tool-bar.component.ts");
 /* harmony import */ var _main_nav_menu_bar_nav_menu_bar_component__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./main/nav-menu-bar/nav-menu-bar.component */ "./src/app/main/nav-menu-bar/nav-menu-bar.component.ts");
 /* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
-/* harmony import */ var _home_follow_gallery_follow_gallery_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./home/follow-gallery/follow-gallery.component */ "./src/app/home/follow-gallery/follow-gallery.component.ts");
+/* harmony import */ var _follow_gallery_follow_gallery_component__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./follow-gallery/follow-gallery.component */ "./src/app/follow-gallery/follow-gallery.component.ts");
 /* harmony import */ var _menu_menu_component__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./menu/menu.component */ "./src/app/menu/menu.component.ts");
 /* harmony import */ var _subscribe_subscribe_component__WEBPACK_IMPORTED_MODULE_21__ = __webpack_require__(/*! ./subscribe/subscribe.component */ "./src/app/subscribe/subscribe.component.ts");
 /* harmony import */ var _main_right_tool_bar_book_table_book_table_component__WEBPACK_IMPORTED_MODULE_22__ = __webpack_require__(/*! ./main/right-tool-bar/book-table/book-table.component */ "./src/app/main/right-tool-bar/book-table/book-table.component.ts");
@@ -165,7 +165,7 @@ var AppModule = /** @class */ (function () {
                 _main_right_tool_bar_right_tool_bar_component__WEBPACK_IMPORTED_MODULE_16__["RightToolBarComponent"],
                 _main_nav_menu_bar_nav_menu_bar_component__WEBPACK_IMPORTED_MODULE_17__["NavMenuBarComponent"],
                 _home_home_component__WEBPACK_IMPORTED_MODULE_18__["HomeComponent"],
-                _home_follow_gallery_follow_gallery_component__WEBPACK_IMPORTED_MODULE_19__["FollowGalleryComponent"],
+                _follow_gallery_follow_gallery_component__WEBPACK_IMPORTED_MODULE_19__["FollowGalleryComponent"],
                 _menu_menu_component__WEBPACK_IMPORTED_MODULE_20__["MenuComponent"],
                 _subscribe_subscribe_component__WEBPACK_IMPORTED_MODULE_21__["SubscribeComponent"],
                 _main_right_tool_bar_book_table_book_table_component__WEBPACK_IMPORTED_MODULE_22__["BookTableComponent"],
@@ -208,7 +208,7 @@ var AppModule = /** @class */ (function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Routers", function() { return Routers; });
 /* harmony import */ var _home_home_component__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./home/home.component */ "./src/app/home/home.component.ts");
-/* harmony import */ var _home_follow_gallery_follow_gallery_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./home/follow-gallery/follow-gallery.component */ "./src/app/home/follow-gallery/follow-gallery.component.ts");
+/* harmony import */ var _follow_gallery_follow_gallery_component__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./follow-gallery/follow-gallery.component */ "./src/app/follow-gallery/follow-gallery.component.ts");
 /* harmony import */ var _menu_menu_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./menu/menu.component */ "./src/app/menu/menu.component.ts");
 /* harmony import */ var _our_story_our_story_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./our-story/our-story.component */ "./src/app/our-story/our-story.component.ts");
 /* harmony import */ var _contact_contact_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./contact/contact.component */ "./src/app/contact/contact.component.ts");
@@ -220,8 +220,8 @@ __webpack_require__.r(__webpack_exports__);
 var Routers = [
     { path: 'home', component: _home_home_component__WEBPACK_IMPORTED_MODULE_0__["HomeComponent"] },
     { path: '', component: _home_home_component__WEBPACK_IMPORTED_MODULE_0__["HomeComponent"] },
-    { path: 'gallery', component: _home_follow_gallery_follow_gallery_component__WEBPACK_IMPORTED_MODULE_1__["FollowGalleryComponent"] },
-    { path: 'gallery/:index', component: _home_follow_gallery_follow_gallery_component__WEBPACK_IMPORTED_MODULE_1__["FollowGalleryComponent"] },
+    { path: 'gallery', component: _follow_gallery_follow_gallery_component__WEBPACK_IMPORTED_MODULE_1__["FollowGalleryComponent"] },
+    { path: 'gallery/:index', component: _follow_gallery_follow_gallery_component__WEBPACK_IMPORTED_MODULE_1__["FollowGalleryComponent"] },
     { path: 'our-menu', component: _menu_menu_component__WEBPACK_IMPORTED_MODULE_2__["MenuComponent"] },
     { path: 'our-story', component: _our_story_our_story_component__WEBPACK_IMPORTED_MODULE_3__["OurStoryComponent"] },
     { path: 'contacts', component: _contact_contact_component__WEBPACK_IMPORTED_MODULE_4__["ContactComponent"] }
@@ -299,10 +299,10 @@ var ContactComponent = /** @class */ (function () {
 
 /***/ }),
 
-/***/ "./src/app/home/follow-gallery/follow-gallery.component.html":
-/*!*******************************************************************!*\
-  !*** ./src/app/home/follow-gallery/follow-gallery.component.html ***!
-  \*******************************************************************/
+/***/ "./src/app/follow-gallery/follow-gallery.component.html":
+/*!**************************************************************!*\
+  !*** ./src/app/follow-gallery/follow-gallery.component.html ***!
+  \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -310,10 +310,10 @@ module.exports = "<div class=\"follow-gallery-container\" *ngIf=\"gallery.length
 
 /***/ }),
 
-/***/ "./src/app/home/follow-gallery/follow-gallery.component.sass":
-/*!*******************************************************************!*\
-  !*** ./src/app/home/follow-gallery/follow-gallery.component.sass ***!
-  \*******************************************************************/
+/***/ "./src/app/follow-gallery/follow-gallery.component.sass":
+/*!**************************************************************!*\
+  !*** ./src/app/follow-gallery/follow-gallery.component.sass ***!
+  \**************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -321,10 +321,10 @@ module.exports = ".follow-gallery-container {\n  width: 100%;\n  display: flex;\
 
 /***/ }),
 
-/***/ "./src/app/home/follow-gallery/follow-gallery.component.ts":
-/*!*****************************************************************!*\
-  !*** ./src/app/home/follow-gallery/follow-gallery.component.ts ***!
-  \*****************************************************************/
+/***/ "./src/app/follow-gallery/follow-gallery.component.ts":
+/*!************************************************************!*\
+  !*** ./src/app/follow-gallery/follow-gallery.component.ts ***!
+  \************************************************************/
 /*! exports provided: FollowGalleryComponent */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -386,8 +386,8 @@ var FollowGalleryComponent = /** @class */ (function () {
     FollowGalleryComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-follow-gallery',
-            template: __webpack_require__(/*! ./follow-gallery.component.html */ "./src/app/home/follow-gallery/follow-gallery.component.html"),
-            styles: [__webpack_require__(/*! ./follow-gallery.component.sass */ "./src/app/home/follow-gallery/follow-gallery.component.sass")]
+            template: __webpack_require__(/*! ./follow-gallery.component.html */ "./src/app/follow-gallery/follow-gallery.component.html"),
+            styles: [__webpack_require__(/*! ./follow-gallery.component.sass */ "./src/app/follow-gallery/follow-gallery.component.sass")]
         }),
         __metadata("design:paramtypes", [src_app_services_follow_service__WEBPACK_IMPORTED_MODULE_1__["FollowService"],
             _angular_router__WEBPACK_IMPORTED_MODULE_4__["ActivatedRoute"],
